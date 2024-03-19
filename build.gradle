@@ -65,6 +65,6 @@ dependencies {
 
 // tag::wrapper[]
 task wrapper(type: Wrapper) {
-    gradleVersion = '7.0'
+    gradleVersion = '7.3.3'
 }
 // end::wrapper[]
