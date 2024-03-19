@@ -42,7 +42,7 @@ repositories {
 
 // tag::jar[]
 jar {
-    baseName = 'jb-hello-world'
+    baseName = 'sample-gradle-app'
     version =  '0.1.0'
 }
 // end::jar[]
