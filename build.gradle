@@ -47,12 +47,6 @@ jar {
 }
 // end::jar[]
 
-java {
-    toolchain {
-        languageVersion = JavaLanguageVersion.of(17)
-    }
-}
-
 // tag::dependencies[]
 sourceCompatibility = 17
 targetCompatibility = 17
@@ -67,4 +61,7 @@ dependencies {
 task wrapper(type: Wrapper) {
     gradleVersion = '7.3.3'
 }
+
+
+
 // end::wrapper[]
