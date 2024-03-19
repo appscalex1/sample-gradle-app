@@ -47,6 +47,12 @@ jar {
 }
 // end::jar[]
 
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
+
 // tag::dependencies[]
 sourceCompatibility = 17
 targetCompatibility = 17
