@@ -17,7 +17,7 @@ repositories {
 
 dependencies {
     implementation "joda-time:joda-time:2.2"
-    testImplementation "junit:junit:4.12"
+    implementation "junit:junit:4.12"
 }
 
 jar {
@@ -29,5 +29,5 @@ sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
 task myWrapper(type: Wrapper) {
-    gradleVersion = '7.3.3'
+    gradleVersion = '7.5.1'
 }
